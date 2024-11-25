@@ -1,0 +1,121 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+:root{
+--Rosa-claro: rgba(247, 231, 220, 1);
+--Azul-escuro: rgba(64, 93, 114, 1);
+--Azul-escuro-claro:rgba(72, 101, 121, 1);
+--Braco-escuro:rgba(255, 248, 243, 1);
+--Azul-cinza:rgba(154, 171, 185, 1);
+--Amarelo:rgba(211, 151, 47, 1);
+--Azul-escuro-cima: rgba(64, 93, 114, 0.564);
+}
+
+    *{
+        font-family:"Josefin Sans", sans-serif;
+    }    
+
+
+img{
+    width: 400px;
+    height: 600px;
+    border-radius: 30px 0px 0px 30px;
+}
+
+.tudo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--Azul-escuro);
+    border-radius: 10px;
+    padding: 20px;
+    width: 800px;
+    height: 600px;
+    position: relative;
+    left: 300px;
+    margin-top: 40px;
+}
+
+body{
+    background-color: var(--Rosa-claro);
+}
+.cadastro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 20px;
+
+}
+
+input{
+    margin: 20px;
+    width: 350px;
+    height: 40px;
+    background-color: var(--Azul-escuro-claro);
+    border-left: 3px;
+    border-top: 3px;
+    border-right: 3px;
+    border-color: white;
+    color: var(--Braco-escuro);
+    
+}
+
+.casar, .tel{
+    border: none;
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    font-size: 12px;
+    margin: 30px;
+    margin-bottom: 0;
+}
+
+
+
+
+.sou{
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    position: relative;
+    left:30px;
+}
+
+.eu{
+    position: relative;
+    top: 8px;
+    color: var(--Azul-cinza);
+}
+.noivo, .noiva{
+    height: 25px;
+    margin: 20px;
+    border-radius: 8px;
+    width: 100px;
+    
+    background-color: var(--Azul-escuro-claro);
+    border-color: white;
+    color: var(--Rosa-claro);
+}
+
+.btn{
+    border:none;
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    color: var(--Azul-escuro);
+}
+
+.sub{
+    font-size: 13px;
+    color: white;
+}
+
+.link:visited, .link:link{
+    color: var(--Amarelo);
+}
+
+.link{
+    text-decoration: none;
+}
+
